@@ -1,0 +1,23 @@
+---
+import Title from "../components/Title.astro";
+import Info from "../components/Info.astro";
+import Webgl from "../components/Webgl.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{Astro.site}</title>
+  </head>
+  <body>
+
+    <Title />
+
+		<Info />
+
+	  <Webgl />
+    
+  </body>
+</html>
